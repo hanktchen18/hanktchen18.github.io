@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ying-Han (Hank) Chen | My Porfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- particles.js -->
+    <div id="particles-js"></div>
+    <!-- shooting star -->
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <!-- space object -->
+    <div class="space-object planet-1"></div>
+    <div class="space-object planet-2"></div>
+    
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">Ying-Han (Hank) Chen</a>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- home section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Ying-Han (Hank) Chen</span></h1>
+            <div class="typed-container">
+                <span id="typing-animation"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-description">A Software Developer Engineer</p>
+            <div class="cta-buttons">
+                <a href="https://drive.google.com/file/d/1ecer3PIp_oY2dtqUDgpxQviJ_c4fFE2D/view?usp=sharing" class="btn primary-btn">Download CV</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-terminal">
+                <div class="terminal-header">
+                    <span class="terminal-button red"></span>
+                    <span class="terminal-button yellow"></span>
+                    <span class="terminal-button green"></span>
+                </div>
+                <div class="terminal-body">
+                    <pre id="terminal-text"></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="image-frame">
+                    <img src="assets/about.jpg" alt="my photo">
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Hi! This is<span class="highlight"> Ying-Han (Hank) Chen</span></h3>
+                <p>An aspiring software engineer who is passionate about using technology to solve real-world problems and build stuff that help people.
+                    I'm pursuing a Master's degree in Computer Science at Arizona State University, learning to build and deploy industry-standard applications.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h4>3+</h4>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h4>10</h4>
+                        <p>Achievements</p>
+                    </div>
+                </div>
+                <div class="social-container">
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/yinghanchen" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/hanktchen18" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experience section -->
+    <section id="experience" class="experience-section">
+        <div class="section-header">
+            <h2>Experience</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">July - Oct 2024</div>
+                    <h3>Web Development Intern – Full Stack</h3>
+                    <h4>Malik Yusef Jones Inc.</h4>
+                    <ul>
+                        <li>Engineered a web application using <strong>TypeScript</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>MongoDB</strong>, enabling tiered music uploading based on subscription plans and facilitating direct song purchases, which increased user engagement by 30%</li>
+                        <li>Collaborated with UI/UX designers to enhance user interfaces and experiences, improving user satisfaction scores by 20%</li>
+                        <li>Integrated third-party <strong>APIs</strong> for payment processing and authentication, boosting transaction efficiency by 25%</li>
+                        <li>Led daily cross-functional meetings to ensure seamless integration between frontend and backend development teams</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Jun - Sept 2019</div>
+                    <h3>Technology & Innovation Center Intern</h3>
+                    <h4>Deloitte & Touche, LLP</h4>
+                    <ul>
+                        <li>Developed a comprehensive financial report system database by analyzing and organizing financial data from 100+ business clients using <strong>Python</strong> and <strong>SQL</strong>, resulting in a 30% increase in operational efficiencies and streamlining reporting processes</li>
+                        <li>Assisted in developing an updated training manual for new interns on utilizing the company's proprietary software</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section -->
+    <section id="education" class="education-section">
+        <div class="section-header">
+            <h2>Education</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="education-grid">
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <div class="education-content">
+                            <span class="date">Mar 2024 - Present</span>
+                            <h2>Master of Computer Science</h2>
+                            <span class="position">Arizona State University</span>
+                            <p class="mt-4">
+                                <ul>
+                                    <li>Cumulative GPA: 3.87/4.0</li>
+                                    <li>Relevant Coursework: Data Structures & Algorithms, Principles of Programming Languages, Operating Systems, Statistical Machine Learning, Data Processing at Scale, Artificial Intelligence, Bio-inspired Computing, Engineering Blockchain Applications.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="school-logo-container">
+                            <img src="assets/asu_logo.png" alt="ASU Logo" class="school-logo-flip">
+                            <h3>Arizona State University</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <div class="education-content">
+                            <span class="date">Jun 2021 - Jun 2022</span>
+                            <h2>Master in Professional Accountancy - Data Analytics</h2>
+                            <span class="position">University of California, Irvine</span>
+                            <p class="mt-4">
+                                <ul>
+                                    <li>GPA: 3.736/4.0</li>
+                                    <li>Relevant Coursework: Intro of Data Analytics for Accounting, Advanced Analytics (Python, SQL), Data Analytics for Audit (Tableau).</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="school-logo-container">
+                            <img src="assets/uci_logo.png" alt="UCI Logo" class="school-logo-flip">
+                            <h3>University of California - Irvine</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="AI & ML">AI & ML</button>
+            <button class="filter-btn" data-filter="Big Data & DA">Big Data & DA</button>
+        </div>
+        <div class="projects-grid">
+            <!-- Project card 1 -->
+            <div class="project-card" data-category="AI & ML">
+                <a href="https://github.com/hanktchen18/FaceRocognitionAttendanceSystem" class="project-link-wrapper" target="_blank">
+                    <div class="project-image">
+                        <img src="assets/proj_1.gif" alt="Face Recognition System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Face Recognition Attendance System</h3>
+                        <p>Developed a face recognition attendance system using Python and OpenCV to automate attendance tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Transformers</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Project card 2 -->
+            <div class="project-card" data-category="Big Data & DA">
+                <a href="https://github.com/hanktchen18/Spatial-Hot-Spot-Analysis" class="project-link-wrapper" target="_blank">
+                    <div class="project-image">
+                        <img src="assets/proj_2.gif" alt="Geospatial Analysis">
+                    </div>
+                    <div class="project-info">
+                        <h3>Geospatial Hot Spot Analysis</h3>
+                        <p>Utilized Apache Spark and spatial statistics techniques and identified high-density taxi pickup hotspots in NYC through geospatial analysis of taxi trip datasets.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Apache Spark</span>
+                            <span class="tech-tag">SparkSQL</span>
+                            <span class="tech-tag">Scala</span>
+                            <span class="tech-tag">Hadoop</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Project card 3 -->
+            <div class="project-card" data-category="AI & ML">
+                <a href="https://github.com/hanktchen18/Deep-Learning-Visual-Computing" class="project-link-wrapper" target="_blank">
+                    <div class="project-image">
+                        <img src="assets/proj_3.gif" alt="Deep Learning">
+                    </div>
+                    <div class="project-info">
+                        <h3>Intro to Deep Learning in Visual Computing</h3>
+                        <p>Implemented a deep learning series for visual computing using Python, NumPy, PyTorch, and Matplotlib......etc.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Jupyter</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <!-- certifications -->
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <img src="assets/AI_ML_logo.png" alt="AI ML Certification">
+                        </div>
+                        <div class="certification-details">
+                            <h4>Artificial Intelligence & Machine Learning Professional Certification</h4>
+                            <div class="cert-meta">
+                                <p class="certification-org">Arizona State University</p>
+                                <p class="certification-date">Issued Mar 2025</p>
+                                <a href="https://badgr.com/public/assertions/Ix4kZvBuTICaaJIHwOAzhw?identity__email=yinghanchen18@gmail.com" class="certification-verify" target="_blank">Show Credential <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <img src="assets/AWS_logo.png" alt="AWS Certified Solution Architect Associate">
+                        </div>
+                        <div class="certification-details">
+                            <h4>AWS Certified Solution Architect - Associate</h4>
+                            <div class="cert-meta">
+                                <p class="certification-org">Amazon Web Services (AWS)</p>
+                                <p class="certification-date">Issued Mar 2025 - Expires Mar 2028</p>
+                                <a href="https://www.credly.com/badges/0c0d95ec-3e88-4083-aa37-058350776966/public_url" class="certification-verify" target="_blank">Show Credential <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <img src="assets/Azure_logo.png" alt="Microsoft Certified: Azure Fundamentals">
+                        </div>
+                        <div class="certification-details">
+                            <h4>Microsoft Certified: Azure Fundamentals</h4>
+                            <div class="cert-meta">
+                                <p class="certification-org">Microsoft</p>
+                                <p class="certification-date">Issued Mar 2025</p>
+                                <a href="https://learn.microsoft.com/en-us/users/yinghanchen-8304/credentials/299ae1f52e7e2e9a?ref=https%3A%2F%2Fwww.linkedin.com%2F" class="certification-verify" target="_blank">Show Credential <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <img src="assets/CPA_logo.png" alt="CPA Certification">
+                        </div>
+                        <div class="certification-details">
+                            <h4>CPA (Certified Public Accountant)</h4>
+                            <div class="cert-meta">
+                                <p class="certification-org">California Board of Accountancy</p>
+                                <p class="certification-date">Issued Dec 2023 - Expires Dec 2025</p>
+                                <a href="#" class="certification-verify">Active </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <img src="assets/EA_logo.jpg" alt="EA Certification">
+                        </div>
+                        <div class="certification-details">
+                            <h4>EA (Enrolled Agent)</h4>
+                            <div class="cert-meta">
+                                <p class="certification-org">Interal Revenue Service</p>
+                                <p class="certification-date">Issued Oct 2021</p>
+                                <a href="#" class="certification-verify">Inactive </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <!-- Contact Info -->
+        <div class="contact-info-grid">
+            <div class="contact-info-box">
+                <div class="info-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Location</h3>
+                <p>Phoenix, AZ</p>
+            </div>
+            
+            <div class="contact-info-box">
+                <div class="info-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Phone Number</h3>
+                <p><a href="tel://8582213283">(858) 221-3283</a></p>
+            </div>
+            
+            <div class="contact-info-box">
+                <div class="info-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Email Address</h3>
+                <p><a href="mailto:yinghanchen18@gmail.com">yinghanchen18@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="contact-content-simple">
+            <div class="contact-cta">
+                <h2>Reach Out!</h2>
+                <a href="https://docs.google.com/forms/d/1e-Mil7Xdv2rZMysJSd_Kmznd52kd51J42FbMbYrphHs/edit" 
+                   class="btn primary-btn contact-btn" 
+                   target="_blank">
+                   Click Here
+                </a>
+            </div>
+            <div class="social-container">
+                <p class="find-me-text">Find me on</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/yinghanchen" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/hanktchen18" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/hankchen_18/" class="social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Ying-Han (Hank) Chen. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // particles.js
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.js loaded');
+        });
+    });
+    </script>
+</body>
+</html> 
