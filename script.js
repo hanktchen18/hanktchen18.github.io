@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // create an array of text to display
   const typingTexts = [
-    'Software Developer Engineer',
 		'Student at ASU',
     'Web Developer',
+    'Solution Architect',
     'Passion Learner',
     'Certified Public Accountant',
     'Enrolled Agent'
@@ -61,8 +61,7 @@ const terminalText = `> Welcome to my portfolio!
 
 const terminalInfo = `
 > Name: Ying-Han (Hank) Chen
-> Occupation: Software Developer Engineer
-> Skills: AI/ML, Web Development
+> Skills: AI/ML, Cloud Technologies, Web Development
 > Status: Ready for new challenges
 > Feel free to explore my portfolio!`;
 
